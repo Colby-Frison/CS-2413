@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "xlocmon": "cpp",
+        "xtr1common": "cpp",
+        "xutility": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "format": "cpp",
+        "initializer_list": "cpp",
+        "xstring": "cpp",
+        "string": "cpp",
+        "atomic": "cpp",
+        "ios": "cpp",
+        "xiosbase": "cpp"
+    },
+    "cSpell.words": [
+        "cout",
+        "gradescope",
+        "Mtree",
+        "multiway"
+    ]
+}

@@ -1,0 +1,80 @@
+X is check mark
+
+first half of main file (project5)
+
+[X] create section to read the file
+    [X] open file
+    [X] read file 
+    [X] close file
+
+[X] store words in unordered map
+    [X] store words in tokens separated by ' ' 
+    [X] store frequencies in map
+    [X] find some way to make sure everything is actually being stored including new lines
+    [] see if having numbers in the text file causes any errors
+
+[X] Sort unordered map by frequencies
+    [X] Choose a method of sorting
+        - converts to map then multimap where key and value are switched, needs to do this since map can't be sorted by value
+    [X] Sort in decreasing order
+        [] Figure out if theres a specific method of sorting for tokens that have the same frequency
+
+second half of main file (project5)
+
+[X] compress the file
+    [X] re-open the file
+    [X] read file and print index of the token in the map separated by a space
+
+[X] save encoded data to a txt file
+    [X] save list of indices to a text file
+    [X] The legend also needs to be output somehow to decoder can access it
+        - Its just going to another text file, but there may be alternative instructions
+__________________________________________________________________________________________________________________________________________________
+
+(project5-decompress)
+
+[X] Read encoded text file
+    [X] Will probably encounter an error where new lines are not implemented properly
+
+[X] As the txt file is read translate indices into their token
+    - its decoding it but not correctly at the moment
+    [X] Either output this with cout or save it to a text file as done before
+        - output not specified yet, so actual instructions are unclear
+
+[X] Addition checker to simply compare new text file to original one
+
+
+long
+
+11/18/2024 9:31 am 
+ - Just started the program and made to-do list. I tired to account for edge cases, but this project is pretty simple os there isn't 
+   a whole lot to worry about
+ - With that this is probably the simplest project so far. Its literally just reading a file to a  map with words:frequency. I like
+   just started and im already almost done. I'll try to finish this in the break later, but we'll see.
+
+12:21 pm 
+ - Finished the compression part of the program already, also made it output to a text file, still need to do the decompression part 
+   of the program, but I don't think that should be that difficult. I think the hardest part of that will just be actually putting the
+   legend of tokens into the txt file efficiently. 
+ - I should be able to finish that by later today, but without the input or output files I don't really know If im doing anything 
+   correct. 
+
+3:27 pm
+ - I think compression works, I started decompression, and it print out a statement based on the tokens, but its completely wrong.
+ - I'll try to fix it later today if I have time, but at the moment it still needs some work
+
+11/19/2024 6:58 pm
+ - Everything is done, its very likely I'll have to change some stuff based on the desired input and output, but with my test cases
+   compression AND decompression both work.
+ - This project overall was pretty easy, mainly because we were permitted like 6 libraries, but I ain't complainin'.
+
+11/25/2024 10:12 am
+ - Everything works properly, I forgot to add to this through the dev process so there is a lot of missing details in the logs and on
+   the to-do list but I'm done os its chill. 
+ - In the project instructions it says to use the output of the base project as the input for the bonus section, but in gradescope it
+   pushes in the base input and expects the same line. This isn't nesssesarily a hard fix, but it just took a few minutes to migrate 
+   the og to the bonus and make everything work without any conflicting variables. I also had to get rid of the output from the base
+   since it isn't needed in the bonus.
+ - Everything works now and a part 2 and 3 isn't needed for the bonus section, so there really isn't much else to do, the only other 
+   thing I'm going to do is add some additional comments to the bonus section, so in case it is checked it doesnt look horrible. I'll 
+   also go in and make sure all the code and comments for the base project is good before I move on from it.  

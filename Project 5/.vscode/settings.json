@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "utility": "cpp",
+        "unordered_map": "cpp",
+        "fstream": "cpp",
+        "xstring": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "atomic": "cpp",
+        "ios": "cpp",
+        "list": "cpp",
+        "system_error": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xiosbase": "cpp",
+        "xtree": "cpp",
+        "map": "cpp"
+    },
+    "cSpell.words": [
+        "complainin",
+        "cout",
+        "multimap"
+    ]
+}
