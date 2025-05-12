@@ -1,0 +1,27 @@
+# Quiz
+
+- Binary search tree
+    - class definition
+    - insertion and removal
+    - inorder traversal
+    - construct binary search tree of min height given tree
+        - in order traversal to get sorted list
+        - then re input to get min height
+- C++ statements for Zig and Zag
+    - Also be able to show pattern for zig and zag
+- Given binary search tree be able to splay a node
+    - Will specify bottom up or top down splay
+- definition of an AVL tree
+    - Given tree find balance factor
+    - after an insertion describe what happens to tree
+        - balance factor
+        - what rotations to fix
+- Why is red black better than avl
+    - 1 bit vs 2 bit
+        - 0 for black 1 for red, 01 10 00 11 for avl
+- Definition for red black tree
+- 2-3 trees
+    - Class definition
+- Proof of why height of red black tree is Log(n)
+- Height of AVL tree Log(n)
+- height of splay tree n
